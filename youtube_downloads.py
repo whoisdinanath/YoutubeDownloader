@@ -35,10 +35,6 @@ def youtube_download():
 
 
 
-if connectivity:
+if connectivity():
     youtube_download()
-
-else:
-    print("Error! Something went wrong.")
-
 #All done!
